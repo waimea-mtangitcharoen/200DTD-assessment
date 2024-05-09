@@ -18,12 +18,14 @@ The client whom I am currently working with is a technology teacher at Waimea co
 ### End-User Requirements
 There are 2 types of main users that this system  is targeting:
 - **Admin/My technology teacher**- He wants a place where he can store and put some ideas for a technology project for girls. Eventhough his IT skill is probably quite high level, the system should still be simple to use, easy and quick to add things on. He is likely to want the system's theme to be technology related as well.
-- **Students**- Female students will be expecting to see a list of possible ideas for their technology projects that are not too difficult for them. Moreover, as they are girls, the ideas that are put in should be more related to girls. The system should be simple and easy to use because the students IT  
+- **Students**- Female students will be expecting to see a list of possible ideas for their technology projects that are not too difficult for them. Moreover, as they are girls, the ideas that are put in should be more related to girls. The system should be simple and easy to use because the students IT level will mostly vary from low to medium.
 
 ### Proposed Solution
 
-Replace this text with a brief statement about the system that you intend to create, including the key functionality it should have.
+The system that I intend to create will store a list of inspirational ideas for projects. Both types of end-user can view the list and click on links that are attached to the list to see the website or pictures related to the ideas. The teacher can also add ideas to the system through the add button.
 
+Admin/My technology teacher should be able to:
+- jdhd
 
 -------------------------------------------------
 
