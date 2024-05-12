@@ -33,31 +33,41 @@ Admin/My technology teacher should be able to:
 
 ### Functionality
 
-Replace this text with a clear explanation of what the implication means.
+The functionality of a system relates to how well the system functions or works for the end user we are aiming for. This can be linked to some of the 10 Nielson’s heuristics: Visibility of system status (This should always inform users of what is going on.), Error prevention (The system should prevent admin from committing an error.)
 
-Replace this text with an explanation of why the implication is relevant to this particular project.
+The functionality of a system is the most important implication in my opinion because if the system does not function, then it does not solve any problem at all, and the user cannot make use of it. Therefore, I will have to be very careful, check and save everything when creating the system to ensure that the system works properly.
 
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
+2 Nielson’s heuristic that will have impact on my design are the visibility of system status and error prevention, but the one that I consider that I should be aiming for is the visibility of system status. The user should see a different color when they hover over a button to inform them that the system is working.
 
 ### Usability
 
-Replace this text with a clear explanation of what the implication means.
+The usability of system status relates to how easy it is to use for the user the system is aiming for.  
 
-Replace this text with an explanation of why the implication is relevant to this particular project.
+I will have to design a system that is easy and simple to use because my end user IT skills, more specifically, student’s IT skill is unlikely to be high level, or some are not skilled at all. So, I should aim for them to be able to use my system without any problem. 
 
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
+As I design my system, I should be aiming for these Nielson’s heuristics that are related to the usability of a system: Consistency and standards (Keeping the layout and style the same all throughout the system to avoid confusion and to make the system look simple.) and  recognition rather than recall (My system should give my technology teacher a list of areas of interests for him to choose from rather than making him type it down when adding new ideas to the list.) 
 
 ### Aesthetics
 
-Replace this text with a clear explanation of what the implication means.
+The aesthetic implications of a system relate to how the system is in terms of its design. 
 
-Replace this text with an explanation of why the implication is relevant to this particular project.
+My target end users are students and teachers so the design should be simple and technology-related, so it represents the subject clearly.
 
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
+Nielson’s heuristic that I should be considered as it is obviously related to the implications is the aesthetic and minimalist design. My system should be as simple and clean as possible. The theme of the system should be something related to technology too. Another heuristic that I can consider when creating my system is the match between the system and real world. I can put icons on as some decorations for my design as well as allowing the user to understand the system quickly. 
 
 ### End-users
+The end-users implications are related to the need of the users. 
+
+I have already asked my technology teacher, who will be one of the main end-users, what he needs and came up with a system that will show ideas for girl's technology projects. 
+
+I must always think about talking and showing my progress to my end-user to get some feedback which I can fix or develop my system so that it will best meet the needs of my end-user. I should also show it to my friends to test if my system works and ask for some feedback from the students’ side of the end-users as well. 
 
 ### Intellectual property
+Intellectual property (IP)  implications of a system relate to not infringing (violate, breaking the rules or law) the IP of the others in terms of copyright, trademarks, patents, etc.
+
+I will have to use links and photos for my system relating to the ideas so I must make sure and check if things I am using are copyright and give credits if I need to, so I am not infringing the IP of the others.
+
+I should also consider the appropriateness and safety of links and photos I am using as well. They should be related to technology and
 
 
 -------------------------------------------------
