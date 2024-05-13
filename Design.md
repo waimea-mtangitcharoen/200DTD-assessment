@@ -25,7 +25,14 @@ There are 2 types of main users that this system  is targeting:
 The system that I intend to create will store a list of inspirational ideas for projects. Both types of end-user can view the list and click on links that are attached to the list to see the website or pictures related to the ideas. The teacher can also add ideas to the system through the add button.
 
 Admin/My technology teacher should be able to:
-- jdhd
+- View the list of ideas
+- Add ideas to the list
+- Delete ideas from the list
+- Click on links that are attached to the list
+
+Students should be able to: 
+- View the list of ideas 
+- Click on links that are attached to the list
 
 -------------------------------------------------
 
@@ -37,7 +44,7 @@ The functionality of a system relates to how well the system functions or works 
 
 The functionality of a system is the most important implication in my opinion because if the system does not function, then it does not solve any problem at all, and the user cannot make use of it. Therefore, I will have to be very careful, check and save everything when creating the system to ensure that the system works properly.
 
-2 Nielson’s heuristic that will have impact on my design are the visibility of system status and error prevention, but the one that I consider that I should be aiming for is the visibility of system status. The user should see a different color when they hover over a button to inform them that the system is working.
+2 Nielson’s heuristic that will have impact on my design are the visibility of system status and error prevention, but the one that I consider that I should be aiming for is the visibility of system status. The user should see a different color when they hover over a button to inform them that the system is working. To check this, I will let my end-user test the system which will then allow me to get some feeadback as well.
 
 ### Usability
 
