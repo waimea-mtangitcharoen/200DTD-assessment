@@ -14,7 +14,14 @@ This project is a system that gives a user some ideas for his/her technology pro
 
 All of the initial design for the system ca be found [here](Design.md)
 
-Testing of features and further design revisions can be found[here](Testing.md)
+Testing of features and further design revisions can be found[here](Development.md)
 
 ## Project Mascot 
 ![alt text](images/tech.png)
+
+## Documentation
+
+The following documents support this project:
+
+- [Design & Review](Design.md)
+- [Development & Testing](Development.md)

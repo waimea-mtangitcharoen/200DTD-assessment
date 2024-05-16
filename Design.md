@@ -58,7 +58,7 @@ As I design my system, I should be aiming for these Nielson’s heuristics that 
 
 The aesthetic implications of a system relate to how the system is in terms of its design. 
 
-My target end users are students and teachers so the design should be simple and technology-related, so it represents the subject clearly.
+My target end users are students and teachers so the design should be simple and clean to use without making the user feel disturb while using the system. The design should also be technology-related to represents the subject.
 
 Nielson’s heuristic that I should be considered as it is obviously related to the implications is the aesthetic and minimalist design. My system should be as simple and clean as possible. The theme of the system should be something related to technology too. Another heuristic that I can consider when creating my system is the match between the system and real world. I can put icons on as some decorations for my design as well as allowing the user to understand the system quickly. 
 
@@ -77,48 +77,51 @@ I will have to use links and photos for my system relating to the ideas so I mus
 I should also consider the appropriateness and safety of links and photos I am using as well. They should be related to technology and
 
 
+## Final System Design
+
+### Database Structure
+
+Place a image here that shows the *final design* of your database: tables, fields and relationships.
+
+### User Interface Design
+
+Place images here that show your *final design* of your UI: layout, colours, etc.
+
+
 -------------------------------------------------
 
-## Design, Development and Testing Log
+## Completed System
 
-### DATE HERE
+### Database Structure
 
-Replace this test with what you are working on
+Place a image here that shows the *actual database structure* that you implemented: tables, fields and relationships.
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+### User Interface Design
 
-### DATE HERE
+Place screenshots and notes here that show your *actual system UI* in action.
 
-Replace this test with what you are working on
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+-------------------------------------------------
 
-### DATE HERE
+## Review and Evaluation
 
-Replace this test with what you are working on
+### Meeting the Needs of the Users
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+Replace this text with a brief evaluation of how well you met the needs of your users. Look at what you initially wrote about who they are, what specific needs they have, etc. and discuss how well the system meets those needs.
 
-### DATE HERE
+### Meeting the System Requirements
 
-Replace this test with what you are working on
+Replace this text with a brief evaluation of how well you met the requirements that you defined at the start of the project, etc. Look back at the list of features / functionality you initially set and discuss how well your system has implemented each one.
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+### Review of IMPLICATION NAME HERE
 
-### DATE HERE
+Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
 
-Replace this test with what you are working on
+### Review of IMPLICATION NAME HERE
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
 
-### DATE HERE
+### Review of IMPLICATION NAME HERE
 
-Replace this test with what you are working on
+Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
-
-### DATE HERE
-
-Replace this test with what you are working on
-
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
