@@ -24,7 +24,7 @@ This is a sample design of my system as well as showing how it could work roughl
 
 Making and linking 2 tables for the database.
 
-There are 2 tables for my database which are the project table and the student's table with the project id as a foreign key.
+There are 2 tables for my database which are the project table and the student's table with the project id as a foreign key. This is just the first version of it. I will need to talk to my client to see if it needs to be alter or change.
 
 ### DATE HERE
 
