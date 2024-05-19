@@ -13,14 +13,18 @@ Assessment Standards: **91892** and **91893**
 
 ### 16/05/2024
 
-![Alt text](image.png)
+![UI design version 1](images/ui_design1.png)
 Brief UI design and how the system might work.
 
-### DATE HERE
+This is a sample design of my system as well as showing how it could work roughlt. I used this to talk to Mr. Copley if it is going to work and if the system meets all of the requirements. He said yes and noted that I should leave the last bit on the teacher's interface where he can edit the details until the very last and focus on making the other things perfect first. He also mentioned the portal log-in for the admin because he will be the only person who can add and make changes to the system. 
 
-Replace this test with what you are working on
+### 20/05/2024
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+![Database table design](images/dtbase_design1.png)
+
+Making and linking 2 tables for the database.
+
+There are 2 tables for my database which are the project table and the student's table with the project id as a foreign key.
 
 ### DATE HERE
 
