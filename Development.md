@@ -28,14 +28,13 @@ There are 2 tables for my database which are the project table and the student's
 
 ### 21/05/2024
 
-![Alt text](images/flow1.png)
-flow design 1 undone
+![Alt text](images/student_flow1.png)
+First version of student's interface view flow design. 
 
-### DATE HERE
+### 23/05/2024
 
-Replace this test with what you are working on
-
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+![Alt text](images/flow2.png)
+flow design for both admin and students. Some clor changes to avoid confusion
 
 ### DATE HERE
 
