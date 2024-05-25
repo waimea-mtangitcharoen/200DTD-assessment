@@ -36,11 +36,11 @@ First version of student's interface view flow design.
 ![Alt text](images/flow2.png)
 flow design for both admin and students. Some clor changes to avoid confusion
 
-### DATE HERE
+### 25/05/2024
 
-Replace this test with what you are working on
+![Alt text](images/admin_flow.png)
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+Working on admin's inteface view flow design. I will make sure to talk to y client on Tuesday to see of any changes should be made. Especially the part where he delete and submit the form.
 
 ### DATE HERE
 
