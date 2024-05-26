@@ -28,22 +28,26 @@ There are 2 tables for my database which are the project table and the student's
 
 ### 21/05/2024
 
-![Alt text](images/student_flow1.png)
+![1st student's interface flow](images/student_flow1.png)
 First version of student's interface view flow design. 
 
 ### 23/05/2024
 
 ![Alt text](images/flow2.png)
-flow design for both admin and students. Some clor changes to avoid confusion
+flow design for both admin and students. Some color changes to avoid confusion
 
-### DATE HERE
+### 25/05/2024
 
-Replace this test with what you are working on
+![Alt text](images/admin_flow.png)
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+Working on admin's inteface view flow design. I will make sure to talk to my client on Tuesday to see of any changes should be made. Especially the part where he deletes and submits the form.
 
-### DATE HERE
+### 27/05/2024
+![Alt text](images/admin_flow2.png)
 
-Replace this test with what you are working on
+This is the finishing look for the first version of admin's interface view flow. I got a feed back from Jess, my classmate, suggesting that I should add the "add area of interest" form and after submitting the "add ideas form" from the home page, it should go to the "add ideas" page instead of the homepage. I will talk to my client tomorrow and see if any changes are to be made.
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+Pink = everyone, 
+Blue = admin only, 
+Light blue = the least priority, 
+Green = unsure/need feedback/optional
