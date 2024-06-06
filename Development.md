@@ -55,3 +55,6 @@ Green = unsure/need feedback/optional
 ### 30/05/2024
 ![Alt text](image.png)
 Working on student's UI
+
+### 06/06/2024
+Finished the first version of student's UI.
