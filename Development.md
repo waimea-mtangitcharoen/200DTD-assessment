@@ -53,5 +53,11 @@ Light blue = the least priority,
 Green = unsure/need feedback/optional
 
 ### 30/05/2024
-![Alt text](image.png)
+![Alt text](images/students_UI.png)
 Working on student's UI
+
+Got a feedback from my client on Friday on the system flow.
+> I am not a girl myself, so I want them to be able to add stuff to the system as well.But I still have to be able to choose and check like which one can be added to the system.
+
+So, my client wants students to be able to add ideas to the system. He wants to be able to see those added items and choose which one to add to or delete from the system. I have changed my mine on the database table, system flow and student's UI.
+![Alt text](images/dtb2.png) 
