@@ -61,3 +61,10 @@ Got a feedback from my client on Friday on the system flow.
 
 So, my client wants students to be able to add ideas to the system. He wants to be able to see those added items and choose which one to add to or delete from the system. I have changed my mine on the database table, system flow and student's UI.
 ![Alt text](images/dtb2.png) 
+
+### 31/05/2024
+![Alt text](images/student_flow3.png)
+This is a new version of system flow. Boxes in blue color are only for teacher/admin and actions in blue arrows can only be done when teacher/admin has logged in. Students are now able to add ideas to the system.
+
+![Alt text](images/student_UI2.png)
+Also, a new version of students UI.
