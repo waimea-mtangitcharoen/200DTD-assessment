@@ -68,3 +68,14 @@ This is a new version of system flow. Boxes in blue color are only for teacher/a
 
 ![Alt text](images/student_UI2.png)
 Also, a new version of students UI.
+
+### 14/06/2024
+![alt text](images/student_ui_color1.png)
+I put the color from real time color into my user's interface design. Then I showed my client the system flow and the UI design to get some feedback.
+> The flow and the UI look pretty good, but I would prefer the colors to be something like orange, cahrcoal and white because they are the colors that I can find in this room. As for the font, I quite a fan of Gilsans.
+
+So my client want the colors orange, white and charcoal on the website and use Gilsans as a font.
+Here are some options I made for my client for the colors:
+![alt text](images/ui_color_option1.png)
+![alt text](images/ui_color_option2.png)
+![alt text](images/ui_color_option3.png)
