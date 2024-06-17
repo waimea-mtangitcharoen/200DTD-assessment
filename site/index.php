@@ -1,21 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project ideas website</title>
+<?php
+require 'lib/utils.php';
+include 'partials/_top.php'; 
 
-</head>
-
-<body>
-    <header>
-        <h1>Project ideas website test</h1>
-
-        <nav>
-            <a href="#"  >Added ideas</a>
-            <a href="#"  >Admin portal</a>
-        </nav>
-    </header>
+?>
 
 
     <main>
@@ -47,15 +34,8 @@
         foreach ($areas as $area) {
             echo '<li>';
 
-            echo '<a href="company.php?code='. $company['code'] .'">';
-            echo    $company['name'];
-            echo '</a>';
-            
-            
-            
-
-            echo '<a href="'. $company['website'] .'">';
-            echo '🔗';
+            echo '<a href="idea_list.php?code='. $area['id'] .'">';
+            echo    $area['name'];
             echo '</a>';
             echo '</li>';
 
