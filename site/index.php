@@ -34,14 +34,23 @@ include 'partials/_top.php';
         foreach ($areas as $area) {
             echo '<li>';
 
-            echo '<a href="idea_list.php?code='. $area['id'] .'">';
+            echo '<a href="idea-list.php?area='. $area['id'] .'">';
             echo    $area['name'];
             echo '</a>';
             echo '</li>';
 
             
         }
+        echo '</ul>';
+
+        echo '<div id="add-area-button">
+                <a href="add-area.php">
+                    +
+                </a>
+             </div>';
     ?>
+
+    <?php include 'partials/bottom.php'; ?>
 
 </body>
 </html>
