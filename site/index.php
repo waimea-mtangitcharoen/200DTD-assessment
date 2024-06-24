@@ -44,7 +44,7 @@ include 'partials/_top.php';
         echo '</ul>';
 
         echo '<div id="add-area-button">
-                <a href="add-area.php">
+                <a href="form-area.php">
                     +
                 </a>
              </div>';

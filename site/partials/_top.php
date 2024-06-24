@@ -23,7 +23,7 @@ $page = basename($_SERVER['SCRIPT_NAME']);
 
 <body>
     <header>
-        <h1>Project ideas website test</h1>
+        <h1><a href="index.php">Project ideas website test</a></h1>
 
         <nav>
             <a href="#"  >Added ideas</a>
