@@ -75,11 +75,11 @@ else {
     echo '</ul>';
 }
 
-//echo '<div id="add-button">
-        //<a href="form-company.php">
-            //Add
-       // </a>
-      //</div>';
+echo '<div id="add-idea-button">
+                <a href="form-idea.php?area=' . $areaID . '">
+                    +
+                </a>
+             </div>';
 ?>
 
 

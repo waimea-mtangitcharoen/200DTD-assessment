@@ -3,12 +3,7 @@ require 'lib/utils.php';
 
 
 
-echo '<h2>Adding Area Database....</h2>';
-
-
 $name = $_POST['name'];
-
-echo '<p>Name:' .$name;
 
 $db = connectToDB();
 
