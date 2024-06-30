@@ -15,14 +15,14 @@ $query = 'INSERT INTO areas (name)
 try{
     $stmt = $db->prepare($query);
     $stmt->execute([$name]);
-
+    $newAreaId = $db->lastInsertId();
 }
 catch (PDOexception $e) {
     consoleLog($e->getMessage(), 'DB Area Add', ERROR);
     die('There was an error adding new area to the database');
 }
 
-header('location: form-idea.php')
+header('location: form-idea.php?area=' . $newAreaId)
 //header('location: index.php');
 
  ?>

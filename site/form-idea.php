@@ -7,6 +7,8 @@ consoleLog($_GET);
 $areaID = $_GET['area'] ?? null;
 if ($areaID == null) die('Missing area ID!');
 
+consoleLog($areaID);
+
 $db = connectToDB();
 
 $query = 'SELECT * FROM areas WHERE id=?';
@@ -28,18 +30,18 @@ consoleLog($area);
 
 <h2>Add new project idea for '<?= $area['name'] ?>'</h2>
 
-<form method="post" action="add-idea.php">
+<form method="post" action='add-idea.php'>
 
     <input type="hidden" name="area" value="<?= $areaID ?>">
     
     <label>Your name</label>
-    <input name="student name" 
+    <input name="sname" 
            type="text" 
            placeholder="e.g. Mimi" 
            required>
 
-    <label>Project name</label>
-    <input name="name" 
+    <label>Project title</label>
+    <input name="title" 
            type="text" 
            placeholder="e.g. Invisible necklace" 
            required>
