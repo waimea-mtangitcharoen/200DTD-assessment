@@ -37,6 +37,7 @@ include 'partials/_top.php';
             echo '<a href="idea-list.php?area='. $area['id'] .'">';
             echo    $area['name'];
             echo '</a>';
+            
             echo '</li>';
 
             
@@ -48,6 +49,8 @@ include 'partials/_top.php';
                     +
                 </a>
              </div>';
+        echo '<a href="added-ideas.php">';
+        echo '</a>';
     ?>
 
     <?php include 'partials/bottom.php'; ?>

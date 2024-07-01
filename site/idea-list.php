@@ -69,6 +69,8 @@ else {
         echo '<a href="'. $idea['link'] .'">';
         echo '🔗';
         echo '</a>';
+
+        echo   '<a href="delete-ideas.php?id=' .  $idea['id'] . '&area=' . $areaID . '">🗑</a>';
         echo '</li>';
     }
 

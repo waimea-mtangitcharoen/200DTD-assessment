@@ -30,6 +30,44 @@ catch (PDOexception $e) {
 
 echo '<h2>' . $idea['title'] . '</h2>';
 
+$query = 'SELECT title,
+                description,
+                link,
+                id
+                                            
+FROM ideas
+WHERE id = ?';
+
+//Attempt to run the query
+try{
+    $stmt = $db->prepare($query);
+    $stmt->execute([$ideaID]);
+    $ideas = $stmt->fetchAll();
+}
+catch (PDOexception $e) {
+    consoleLog($e->getMessage(), 'DB List Fetch', ERROR);
+    die('There was an error getting data from the database');
+}
+//see what we got back
+consoleLog($ideas);
+
+//if (count($ideas) == 0) {
+    //echo '<p>No ideas in this area!';
+//}
+//else {
+    echo '<id="idea-details">';
+
+    foreach ($ideas as $idea) {
+    
+        echo    $idea['description'];
+        echo '<a href="'. $idea['link'] .'">';
+        echo '🔗';
+        echo '</a>';
+        
+    }
+
+    
+//}
 
 
 
@@ -38,3 +76,4 @@ echo '<h2>' . $idea['title'] . '</h2>';
 
 
 ?>
+

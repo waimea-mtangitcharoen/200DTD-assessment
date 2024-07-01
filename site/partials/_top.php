@@ -26,7 +26,9 @@ $page = basename($_SERVER['SCRIPT_NAME']);
         <h1><a href="index.php">Project ideas website test</a></h1>
 
         <nav>
-            <a href="#"  >Added ideas</a>
-            <a href="#"  >Admin portal</a>
+            <a href="added-ideas.php"  >Added ideas</a>
+            <a href="admin.php"  >Admin portal</a>
         </nav>
     </header>
+
+    <main>
