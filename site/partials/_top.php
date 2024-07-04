@@ -1,8 +1,15 @@
-<?php require_once '_config.php'; ?>
+<?php require_once '_config.php'; 
 
-<?php
+session_name('TechWeb');
+session_start();
+
+$adminPortal = isset($_SESSION['admin']);
 
 $page = basename($_SERVER['SCRIPT_NAME']);
+
+consoleLog($_SESSION)
+
+
 
 
 ?>
@@ -27,7 +34,7 @@ $page = basename($_SERVER['SCRIPT_NAME']);
 
         <nav>
             <a href="added-ideas.php"  >Added ideas</a>
-            <a href="admin.php"  >Admin portal</a>
+            <a href="form-admin.php"  >Admin portal</a>
         </nav>
     </header>
 
