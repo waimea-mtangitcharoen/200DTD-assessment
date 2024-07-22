@@ -23,7 +23,7 @@ consoleLog($_SESSION)
 
     <link
         rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.pumpkin.min.css"
+        href="css/styles.css"
     >
 
 </head>
@@ -39,3 +39,5 @@ consoleLog($_SESSION)
     </header>
 
     <main>
+
+<!-- https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.pumpkin.min.css -->

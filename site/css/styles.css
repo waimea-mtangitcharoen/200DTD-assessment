@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+} 
+
+html {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    font-size: 24px;
+    
+}
+
+body {
+    background-color: rgba(64, 59, 76, 1);
+    color: white;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: rgba(217, 217, 217, 1);
+    /* border-bottom: 1px solid slategrey; */
+    position: sticky;
+    top: 0;
+}
+header h1 a{
+    text-decoration: none;
+    color: black;
+}
+
+/* ---Navigation bars----------------------------------------------------------------------------------------------- */
+
+nav a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+nav a:hover{
+    text-decoration: underline;
+    /* underline or color when hover over */
+}
+
+main {
+    flex: 1;
+    padding: 1rem;
+}
+
+/* ---Area list----------------------------------------------------------------------------------------------- */
+
+ul#area-list{
+    list-style: none;
+    padding: 0;
+    width: max-content;
+    margin: 1rem auto;
+
+}
+
+ul#area-list  li{
+    margin-bottom: 1rem;
+    display: flex;
+    width: 50rem;
+    justify-content: space-between;
+    gap: 2rem;
+    background-color: white;
+    border-radius: 0.3rem;
+}
+
+ul#area-list li a{
+    display: block;
+    padding: 1rem 1.3rem;
+    border-radius: 0.3rem;
+    color: black;
+    text-decoration: none;
+}
+
+ul#area-list li:hover{
+    background-color: rgba(255, 157, 59, 1);
+}
+
+#add-area-button{
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+}
+
+#add-area-button a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    width: 3rem;
+    background-color: rgba(255, 157, 59, 1);
+    border-radius: 3rem;
+    text-decoration: none;
+    
+
+}

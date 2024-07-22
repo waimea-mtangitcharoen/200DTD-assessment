@@ -49,8 +49,7 @@ include 'partials/_top.php';
                     +
                 </a>
              </div>';
-        echo '<a href="added-ideas.php">';
-        echo '</a>';
+        
     ?>
 
     <?php include 'partials/bottom.php'; ?>

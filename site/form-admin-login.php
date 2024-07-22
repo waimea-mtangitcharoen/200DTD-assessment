@@ -32,7 +32,7 @@ if ($adminLog['username'] == $username &&  $adminLog['password'] == $password)
 }
 else {
     
-    echo '<h2>Incorrect username or password. Please try again</h2>';
+    echo '<h2>Incorrect username or password. Please try again </h2>' . '<a href="form-admin.php"></a>';
 
 }
 

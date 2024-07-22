@@ -79,3 +79,22 @@ Here are some options I made for my client for the colors:
 ![alt text](images/ui_color_option1.png)
 ![alt text](images/ui_color_option2.png)
 ![alt text](images/ui_color_option3.png)
+
+### 07/07/2024
+I am currentky working on the website write now.
+
+Homepage:
+![alt text](images/home-1.png)
+Add new area form:
+![alt text](images/new-area-1.png)
+Idea list page:
+![alt text](images/idea-list-1.png)
+Idea details:
+![alt text](images/details-1.png)
+Add new idea form:
+![alt text](images/new-idea-1.png)
+Admin login:
+![alt text](images/login-1.png)
+Added ideas:
+![alt text](images/added-ideas-1.png)
+There is no longer "pick area of interest page " as designed because the user can simply add new ideas to the area that they have clicked into.
