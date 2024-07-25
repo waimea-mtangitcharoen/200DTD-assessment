@@ -6,8 +6,8 @@ include 'partials/_top.php';
 
 
     <main>
-        <h1>No ideas for your project? Easy!</h1>
-        <p>Start off by picking your area of interest!!</p>
+        <h1 class="center-title">No ideas for your project? Easy!</h1>
+        <p class="center-title">Start off by picking your area of interest!!</p>
         
     <?php
 
@@ -44,7 +44,7 @@ include 'partials/_top.php';
         }
         echo '</ul>';
 
-        echo '<div id="add-area-button">
+        echo '<div class="add-button">
                 <a href="form-area.php">
                     +
                 </a>

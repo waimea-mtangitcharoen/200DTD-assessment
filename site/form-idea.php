@@ -28,7 +28,7 @@ consoleLog($area);
 
 ?>
 
-<h2>Add new project idea for '<?= $area['name'] ?>'</h2>
+<h2 class="center-title">Add new project idea for '<?= $area['name'] ?>'</h2>
 
 <form method="post" action='add-idea.php'>
 

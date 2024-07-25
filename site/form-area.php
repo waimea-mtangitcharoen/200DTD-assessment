@@ -5,7 +5,7 @@ include 'partials/_top.php';
 
 ?>
 
-<h2>Add new area of interest</h2>
+<h2 class="center-title">Add new area of interest</h2>
 
 <form method="post" action="add-area.php">
     

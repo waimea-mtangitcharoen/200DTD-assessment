@@ -5,7 +5,7 @@ include 'partials/_top.php';
 
 ?>
 
-<h2> Log in </h2>
+<h2 class="center-title"> Log in </h2>
 
 <form method="post" action='form-admin-login.php'>
     

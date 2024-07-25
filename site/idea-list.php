@@ -28,7 +28,7 @@ catch (PDOexception $e) {
     die('There was an error getting area data from the database');
 }
 
-echo '<h2>' . $area['name'] . '</h2>';
+echo '<h2 class="center-title">' . $area['name'] . '</h2>';
 
 
 // -------------------------------------------------
@@ -66,18 +66,18 @@ else {
         echo    $idea['title'];
         echo '</a>';
         
-        echo '<a href="'. $idea['link'] .'">';
+        echo '<a class="function" href="'. $idea['link'] .'">';
         echo '🔗';
         echo '</a>';
 
-        echo   '<a href="delete-ideas.php?id=' .  $idea['id'] . '&area=' . $areaID . '">🗑</a>';
+        echo   '<a class="function" href="delete-ideas.php?id=' .  $idea['id'] . '&area=' . $areaID . '">🗑</a>';
         echo '</li>';
     }
 
     echo '</ul>';
 }
 
-echo '<div id="add-idea-button">
+echo '<div class="add-button">
                 <a href="form-idea.php?area=' . $areaID . '">
                     +
                 </a>

@@ -17,6 +17,16 @@ body {
     flex-direction: column;
 }
 
+/* :root{ */
+    /* --main */
+/* } */
+
+.center-title{
+    text-align: center;
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -82,13 +92,13 @@ ul#area-list li:hover{
     background-color: rgba(255, 157, 59, 1);
 }
 
-#add-area-button{
+.add-button{
     position: fixed;
     right: 2rem;
     bottom: 2rem;
 }
 
-#add-area-button a{
+.add-button a{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -97,6 +107,117 @@ ul#area-list li:hover{
     background-color: rgba(255, 157, 59, 1);
     border-radius: 3rem;
     text-decoration: none;
-    
+}
+
+/* ---Idea list----------------------------------------------------------------------------------------------- */
+
+ul#idea-list{
+    list-style: none;
+    padding: 0;
+    width: max-content;
+    margin: 1rem auto;
 
 }
+
+
+ul#idea-list  li{
+    margin-bottom: 1rem;
+    display: flex;
+    width: 50rem;
+    justify-content: space-around;
+    gap: 2rem;
+    background-color: white;
+    border-radius: 0.3rem;
+}
+
+ul#idea-list li a{
+    display: block;
+    padding: 1rem 1.3rem;
+    border-radius: 0.3rem;
+    color: black;
+    text-decoration: none;
+}
+
+ul#idea-list li:hover{
+    background-color: rgba(255, 157, 59, 1);
+}
+
+/* ---Form----------------------------------------------------------------------------------------------- */
+form{
+    width: max-content;
+    margin: 1rem auto;
+    /* padding: 1rem; */
+    gap: 2rem;
+}
+
+label{
+    display: block;
+    color: white;
+    margin-bottom: 0.2rem;
+}
+
+input{
+    width: 1000px;
+    display: block;
+    font-size: inherit;
+    border-radius: 0.5rem;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    border-style: none;
+    margin-bottom: 1rem;
+}
+
+input[type="submit" i]{
+    width: 250px;
+    margin: 1rem auto;
+    color: white;
+    background-color: rgba(255, 157, 59, 1);
+    border-style: none;
+}
+
+/* input:not(:last-child) */
+/* select:not(:last-child){ */
+    /* margin-bottom: 5rem; */
+/* } */
+
+/* ---Added ideas table----------------------------------------------------------------------------------------------- */
+table{
+    margin: 1rem auto;
+    /* border-collapse: collapse; */
+    width: max-content;
+    stroke: none;
+    
+}
+
+tr{
+    background-color:white;
+    padding: 1rem;
+    font-size: 24px;
+    
+}
+
+tr th{
+    color: black;
+    padding: 1rem;
+}
+
+td{
+    padding: 1rem 5rem;
+    color: black;
+    font-size: 16px;
+
+}
+
+h1.centerize-title{
+    text-align: center;
+}
+
+td p{
+    margin: 0.3rem;
+}
+
+
+
+
+
+
