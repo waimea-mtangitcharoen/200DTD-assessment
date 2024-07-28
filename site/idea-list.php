@@ -62,15 +62,18 @@ else {
     foreach ($ideas as $idea) {
         echo '<li>';
 
-        echo '<a href="details.php?id='. $idea['id'] .'">';
+        echo '<a class="idea-name" href="details.php?id='. $idea['id'] .'">';
         echo    $idea['title'];
         echo '</a>';
         
-        echo '<a class="function" href="'. $idea['link'] .'">';
-        echo '🔗';
-        echo '</a>';
+        echo '<div class="function">';
+            echo '<a href="'. $idea['link'] .'">';
+            echo '🔗';
+            echo '</a>';
 
-        echo   '<a class="function" href="delete-ideas.php?id=' .  $idea['id'] . '&area=' . $areaID . '">🗑</a>';
+            echo   '<a href="delete-ideas.php?id=' .  $idea['id'] . '&area=' . $areaID . '">🗑</a>';
+        echo '</div>';
+
         echo '</li>';
     }
 

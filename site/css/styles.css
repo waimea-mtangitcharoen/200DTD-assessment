@@ -124,11 +124,28 @@ ul#idea-list  li{
     margin-bottom: 1rem;
     display: flex;
     width: 50rem;
-    justify-content: space-around;
     gap: 2rem;
     background-color: white;
     border-radius: 0.3rem;
+    justify-content: start;
 }
+
+a.idea-name{
+    flex-grow: 1;
+}
+
+/* ul#idea-list  li:first-child{
+    justify-content: flex-start;
+}
+
+ul#idea-list  li:nth-last-child(){
+    justify-items: end;
+} */
+
+.function{
+    display: flex;
+}
+
 
 ul#idea-list li a{
     display: block;
@@ -136,6 +153,7 @@ ul#idea-list li a{
     border-radius: 0.3rem;
     color: black;
     text-decoration: none;
+    
 }
 
 ul#idea-list li:hover{
