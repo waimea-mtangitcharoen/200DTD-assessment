@@ -59,9 +59,10 @@ consoleLog($ideas);
 
     foreach ($ideas as $idea) {
     
-        echo    $idea['description'];
+        echo $idea['description'];
         echo '<a href="'. $idea['link'] .'">';
         echo '🔗';
+        echo '<img src="load-thing-image.php?id=' . $idea['id'] . '">';
         echo '</a>';
         
     }

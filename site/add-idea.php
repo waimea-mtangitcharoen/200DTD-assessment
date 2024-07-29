@@ -25,7 +25,7 @@ $db = connectToDB();
 
 //setup a query to get all company info 
 
-$query = 'INSERT INTO ideas (area, title, description, link, student_name, imagee_data, image_type)
+$query = 'INSERT INTO ideas (area, title, description, link, student_name, image_data, image_type)
           VALUES (?,?,?,?,?,?,?)';
 //Attempt to run the query
 try{

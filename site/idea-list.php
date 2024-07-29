@@ -73,6 +73,7 @@ else {
 
             echo   '<a href="delete-ideas.php?id=' .  $idea['id'] . '&area=' . $areaID . '">🗑</a>';
         echo '</div>';
+        
 
         echo '</li>';
     }

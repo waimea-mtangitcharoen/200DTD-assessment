@@ -30,7 +30,7 @@ consoleLog($area);
 
 <h2 class="center-title">Add new project idea for '<?= $area['name'] ?>'</h2>
 
-<form method="post" action='add-idea.php'>
+<form method="post" action='add-idea.php' enctype="multipart/form-data">
 
     <input type="hidden" name="area" value="<?= $areaID ?>">
     
@@ -57,6 +57,10 @@ consoleLog($area);
            type="url" 
            placeholder="e.g. www.necklace.invisible.com" 
            required>
+           
+    <label>Image</label>
+    <input type="file" name="image" accept="image/*" required>
+
     
     <input type="submit" value="Add">
 

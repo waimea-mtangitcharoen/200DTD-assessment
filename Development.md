@@ -98,3 +98,8 @@ Admin login:
 Added ideas:
 ![alt text](images/added-ideas-1.png)
 There is no longer "pick area of interest page " as designed because the user can simply add new ideas to the area that they have clicked into.
+
+### 30/07/2024
+Working on css and functionality of the website. I will make sure to have a chat with my client to see if I am on the right track.
+
+![Alt text](images/index1.png)

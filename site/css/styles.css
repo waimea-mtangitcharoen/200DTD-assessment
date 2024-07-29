@@ -134,18 +134,9 @@ a.idea-name{
     flex-grow: 1;
 }
 
-/* ul#idea-list  li:first-child{
-    justify-content: flex-start;
-}
-
-ul#idea-list  li:nth-last-child(){
-    justify-items: end;
-} */
-
 .function{
     display: flex;
 }
-
 
 ul#idea-list li a{
     display: block;
@@ -204,14 +195,12 @@ table{
     /* border-collapse: collapse; */
     width: max-content;
     stroke: none;
-    
 }
 
 tr{
     background-color:white;
     padding: 1rem;
     font-size: 24px;
-    
 }
 
 tr th{
@@ -223,7 +212,14 @@ td{
     padding: 1rem 5rem;
     color: black;
     font-size: 16px;
+}
 
+th:first-child{
+    border-top-left-radius: 0.8rem;
+}
+
+th:last-child{
+    border-top-right-radius: 0.8rem;
 }
 
 h1.centerize-title{
