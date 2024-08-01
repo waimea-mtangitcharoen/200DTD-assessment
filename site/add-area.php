@@ -26,3 +26,4 @@ header('location: form-idea.php?area=' . $newAreaId)
 //header('location: index.php');
 
  ?>
+

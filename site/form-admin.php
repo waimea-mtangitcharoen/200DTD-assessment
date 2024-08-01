@@ -22,3 +22,5 @@ include 'partials/_top.php';
     <input type="submit" value="Add">
 
 </form>
+
+<?php include 'partials/bottom.php'; ?>

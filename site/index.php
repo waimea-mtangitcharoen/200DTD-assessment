@@ -6,6 +6,7 @@ include 'partials/_top.php';
 
 
     <main>
+
         <h1 class="center-title">No ideas for your project? Easy!</h1>
         <p class="center-title">Start off by picking your area of interest!!</p>
         

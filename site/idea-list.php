@@ -71,7 +71,9 @@ else {
             echo '🔗';
             echo '</a>';
 
+            if($adminPortal == true){
             echo   '<a href="delete-ideas.php?id=' .  $idea['id'] . '&area=' . $areaID . '">🗑</a>';
+            }
         echo '</div>';
         
 

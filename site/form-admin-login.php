@@ -25,6 +25,8 @@ catch (PDOexception $e) {
 //header('location: index.php');
 consoleLog($adminLog);
 
+session_start();
+
 if ($adminLog['username'] == $username &&  $adminLog['password'] == $password)
 {
     $_SESSION['admin'] = true;
@@ -43,3 +45,5 @@ else {
 
 
 ?>
+
+<?php include 'partials/bottom.php'; ?>

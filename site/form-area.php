@@ -15,6 +15,8 @@ include 'partials/_top.php';
            placeholder="e.g. Woodwork" 
            required>
     
-    <input type="submit" value="Add">
+    <input id="submit" type="submit" value="Add">
 
 </form>
+
+<?php include 'partials/bottom.php'; ?>

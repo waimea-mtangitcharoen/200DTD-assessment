@@ -21,6 +21,8 @@ consoleLog($_SESSION)
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project ideas website</title>
 
+    <script src="https://unpkg.com/feather-icons"></script>
+
     <link
         rel="stylesheet"
         href="css/styles.css"
@@ -33,8 +35,15 @@ consoleLog($_SESSION)
         <h1><a href="index.php">Project ideas website test</a></h1>
 
         <nav>
-            <a href="added-ideas.php"  >Added ideas</a>
-            <a href="form-admin.php"  >Admin portal</a>
+            <?php
+                if($adminPortal == true){
+                   echo '<a href="added-ideas.php"><i data-feather="table"></i> Added ideas</a>';
+                   echo '<a href="logOut-admin.php"  ><i data-feather="user"></i>Log Out</a>';
+                }
+                else{
+                   echo '<a href="form-admin.php"  ><i data-feather="user"></i>Admin portal</a>';
+                }
+            ?>
         </nav>
     </header>
 

@@ -59,22 +59,18 @@ consoleLog($ideas);
 
     foreach ($ideas as $idea) {
     
-        echo $idea['description'];
+        echo '<img src="load-thing-image.php?id=' . $idea['id'] . '">'; 
+        echo '<id ="description" ' . $idea['description'] . '>';
         echo '<a href="'. $idea['link'] .'">';
         echo '🔗';
-        echo '<img src="load-thing-image.php?id=' . $idea['id'] . '">';
         echo '</a>';
-        
     }
-
+   
     
 //}
-
-
-
-
-
-
-
 ?>
+
+<?php include 'partials/bottom.php'; ?>
+
+
 

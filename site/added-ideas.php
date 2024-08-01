@@ -59,3 +59,5 @@ echo '</table>';
 
 
 ?>
+
+<?php include 'partials/bottom.php'; ?>
