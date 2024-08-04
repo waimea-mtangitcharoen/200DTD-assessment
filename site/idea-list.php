@@ -68,11 +68,12 @@ else {
         
         echo '<div class="function">';
             echo '<a href="'. $idea['link'] .'">';
-            echo '🔗';
+            echo '<i data-feather="external-link"></i>';
             echo '</a>';
 
             if($adminPortal == true){
             echo   '<a href="delete-ideas.php?id=' .  $idea['id'] . '&area=' . $areaID . '">🗑</a>';
+            echo   '<a href="edit-ideas.php?id=' . $idea['id'] . '&area=' . $areaID . '"><i data-feather="edit"></i>';
             }
         echo '</div>';
         

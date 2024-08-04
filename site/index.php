@@ -4,9 +4,6 @@ include 'partials/_top.php';
 
 ?>
 
-
-    <main>
-
         <h1 class="center-title">No ideas for your project? Easy!</h1>
         <p class="center-title">Start off by picking your area of interest!!</p>
         
@@ -36,11 +33,10 @@ include 'partials/_top.php';
             echo '<li>';
 
             echo '<a href="idea-list.php?area='. $area['id'] .'">';
-            echo    $area['name'];
+            echo $area['name'];            
             echo '</a>';
-            
-            echo '</li>';
 
+            echo '</li>';
             
         }
         echo '</ul>';
@@ -54,6 +50,3 @@ include 'partials/_top.php';
     ?>
 
     <?php include 'partials/bottom.php'; ?>
-
-</body>
-</html>

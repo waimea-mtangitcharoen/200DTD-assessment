@@ -60,9 +60,9 @@ consoleLog($ideas);
     foreach ($ideas as $idea) {
     
         echo '<img src="load-thing-image.php?id=' . $idea['id'] . '">'; 
-        echo '<id ="description" ' . $idea['description'] . '>';
+        echo '<p>' . $idea['description'] . '</p>';
         echo '<a href="'. $idea['link'] .'">';
-        echo '🔗';
+        echo '<i data-feather="external-link"></i>';
         echo '</a>';
     }
    

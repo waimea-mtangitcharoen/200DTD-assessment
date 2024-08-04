@@ -7,7 +7,7 @@ $adminPortal = isset($_SESSION['admin']);
 
 $page = basename($_SERVER['SCRIPT_NAME']);
 
-consoleLog($_SESSION)
+// consoleLog($_SESSION);
 
 
 
@@ -35,6 +35,7 @@ consoleLog($_SESSION)
         <h1><a href="index.php">Project ideas website test</a></h1>
 
         <nav>
+            <a href="index.php" ><i data-feather= "home"></i>Home</a>
             <?php
                 if($adminPortal == true){
                    echo '<a href="added-ideas.php"><i data-feather="table"></i> Added ideas</a>';

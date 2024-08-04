@@ -84,10 +84,13 @@ ul#area-list  li{
     gap: 2rem;
     background-color: white;
     border-radius: 0.3rem;
+    text-decoration: none;
+    
 }
 
 ul#area-list li a{
     display: block;
+    width: 100%;
     padding: 1rem 1.3rem;
     border-radius: 0.3rem;
     color: black;
@@ -113,6 +116,7 @@ ul#area-list li:hover{
     background-color: rgba(255, 157, 59, 1);
     border-radius: 3rem;
     text-decoration: none;
+    color: black;
 }
 
 /* ---Idea list----------------------------------------------------------------------------------------------- */
@@ -245,6 +249,11 @@ h2{
 img{
     display: block;
     margin: auto;
+}
+
+#idea-details a{
+    text-decoration: none;
+    color: black;
 }
 
 
