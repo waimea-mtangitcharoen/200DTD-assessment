@@ -72,8 +72,8 @@ else {
             echo '</a>';
 
             if($adminPortal == true){
-            echo   '<a href="delete-ideas.php?id=' .  $idea['id'] . '&area=' . $areaID . '">🗑</a>';
-            echo   '<a href="edit-ideas.php?id=' . $idea['id'] . '&area=' . $areaID . '"><i data-feather="edit"></i>';
+            echo   '<a href="delete-ideas.php?id=' .  $idea['id'] . '&area=' . $areaID . '"><i data-feather="trash-2"></i></a>';
+            echo   '<a href="form-edit.php?id=' . $idea['id'] . '&area=' . $areaID . '"><i data-feather="edit"></i>';
             }
         echo '</div>';
         
