@@ -23,7 +23,6 @@ body {
 
 .center-title{
     text-align: center;
-    margin: 0;
     margin-bottom: 0.5rem;
 }
 
@@ -34,7 +33,7 @@ header {
     padding: 1rem;
     background-color: rgba(217, 217, 217, 1);
     /* border-bottom: 1px solid slategrey; */
-    position: sticky;
+    /* position: sticky; */
     top: 0;
 }
 header h1 a{
@@ -161,6 +160,18 @@ ul#idea-list li:hover{
     background-color: rgba(255, 157, 59, 1);
 }
 
+/* p{
+    display: flex;
+    justify-content: center;
+} */
+#no-ideas{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    font-size: 24px;
+
+}
+
 /* ---Form----------------------------------------------------------------------------------------------- */
 form{
     width: max-content;
@@ -203,7 +214,7 @@ input[type="submit" i]{
 table{
     margin: 1rem auto;
     /* border-collapse: collapse; */
-    width: max-content;
+    width: 100%;
     stroke: none;
 }
 
@@ -249,6 +260,9 @@ h2{
 img{
     display: block;
     margin: auto;
+    max-width: 500px;
+    max-height: 500px;
+    object-fit: scale-down;
 }
 
 #idea-details a{
@@ -256,7 +270,39 @@ img{
     color: black;
 }
 
+#idea-details p{
+    display: flex;
+    margin: 1rem;
+}
 
+#description{
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 1rem;
+}
+
+.find-more{
+    display: flex;
+    gap: 0.3rem;
+    justify-content: center;
+}
+
+.find-more a{
+    margin-top: 28px;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.find-more a:hover{
+    color: rgba(255, 157, 59, 1);
+}
+
+.find-more p{
+    align-self: center;
+}
 
 
 

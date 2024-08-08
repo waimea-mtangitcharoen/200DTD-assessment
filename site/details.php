@@ -60,10 +60,15 @@ consoleLog($ideas);
     foreach ($ideas as $idea) {
     
         echo '<img src="load-image.php?id=' . $idea['id'] . '">'; 
-        echo '<p>' . $idea['description'] . '</p>';
-        echo '<a href="'. $idea['link'] .'">';
-        echo '<i data-feather="external-link"></i>';
-        echo '</a>';
+        // echo '<p id="description" '. $idea['description'] . '></p>';
+        echo '<p id="description">' . $idea['description'] . '</p>';
+        echo '<div class="find-more">';
+            echo '<p>' . 'Find out more:' . '</p>';
+            // echo '<a href="'. $idea['link'] .'">';
+            echo '<a href="'. $idea['link'] .'">';
+            echo '<i data-feather="external-link"></i>';
+            echo '</a>';
+        echo '</div>';
     }
    
     

@@ -54,7 +54,7 @@ catch (PDOexception $e) {
 consoleLog($ideas);
 
 if (count($ideas) == 0) {
-    echo '<p>No ideas in this area!';
+    echo '<p id="no-ideas">No ideas in this area!</p>';
 }
 else {
     echo '<ul id="idea-list">';
