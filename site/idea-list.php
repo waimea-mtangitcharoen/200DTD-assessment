@@ -70,10 +70,10 @@ else {
             echo '<a href="'. $idea['link'] .'">';
             echo '<i data-feather="external-link"></i>';
             echo '</a>';
-
+            echo   '<a href="form-edit.php?id=' . $idea['id'] . '&area=' . $areaID . '"><i data-feather="edit"></i>';
             if($adminPortal == true){
             echo   '<a href="delete-ideas.php?id=' .  $idea['id'] . '&area=' . $areaID . '"><i data-feather="trash-2"></i></a>';
-            echo   '<a href="form-edit.php?id=' . $idea['id'] . '&area=' . $areaID . '"><i data-feather="edit"></i>';
+            // echo   '<a href="form-edit.php?id=' . $idea['id'] . '&area=' . $areaID . '"><i data-feather="edit"></i>';
             }
         echo '</div>';
         

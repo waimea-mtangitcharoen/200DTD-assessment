@@ -63,10 +63,10 @@ consoleLog($ideas);
         // echo '<p id="description" '. $idea['description'] . '></p>';
         echo '<p id="description">' . $idea['description'] . '</p>';
         echo '<div class="find-more">';
+            echo '<a href="'. $idea['link'] .'">';
             echo '<p>' . 'Find out more:' . '</p>';
             // echo '<a href="'. $idea['link'] .'">';
-            echo '<a href="'. $idea['link'] .'">';
-            echo '<i data-feather="external-link"></i>';
+            echo '<i data-feather="external-link" class="link-icon"></i>';
             echo '</a>';
         echo '</div>';
     }

@@ -283,24 +283,25 @@ img{
     margin-bottom: 1rem;
 }
 
-.find-more{
-    display: flex;
-    gap: 0.3rem;
-    justify-content: center;
-}
-
 .find-more a{
     margin-top: 28px;
     margin-bottom: 20px;
     text-decoration: none;
     color: white;
+    display: flex;
+    gap: 0.3rem;
+    justify-content: center;
 }
 
 .find-more a:hover{
     color: rgba(255, 157, 59, 1);
 }
 
-.find-more p{
+.find-more a p{
+    align-self: center;
+}
+
+.link-icon{
     align-self: center;
 }
 
