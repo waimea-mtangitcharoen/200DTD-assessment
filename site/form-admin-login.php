@@ -25,7 +25,7 @@ catch (PDOexception $e) {
 //header('location: index.php');
 consoleLog($adminLog);
 
-session_start();
+// session_start();
 
 if ($adminLog['username'] == $username &&  $adminLog['password'] == $password)
 {
@@ -34,7 +34,9 @@ if ($adminLog['username'] == $username &&  $adminLog['password'] == $password)
 }
 else {
     
-    echo '<h2>Incorrect username or password. Please try again </h2>' . '<a href="form-admin.php"></a>';
+    echo '<h2>Incorrect username or password. Please try again </h2></a>';
+    echo '<a id="login-again" href="form-admin.php">Log in again';
+    echo '</a>';
 
 }
 
