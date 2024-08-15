@@ -103,7 +103,7 @@ ul#area-list li:hover{
 .add-button{
     position: fixed;
     right: 2rem;
-    bottom: 2rem;
+    bottom: 5rem;
 }
 
 .add-button a{
@@ -156,6 +156,10 @@ ul#idea-list li a{
     
 }
 
+ul#idea-list li a:hover{
+    color: white;    
+}
+
 ul#idea-list li:hover{
     background-color: rgba(255, 157, 59, 1);
 }
@@ -186,9 +190,10 @@ label{
     margin-bottom: 0.2rem;
 }
 
-input{
+input, textarea {
     width: 1000px;
     display: block;
+    font-family: inherit;
     font-size: inherit;
     border-radius: 0.5rem;
     justify-content: space-between;
@@ -197,6 +202,10 @@ input{
     margin-bottom: 1rem;
     background-color: white;
     color: black;
+}
+
+textarea {
+    min-height: 8rem;
 }
 
 input[type="submit" i]{
@@ -233,6 +242,7 @@ tr{
 tr th{
     color: black;
     padding: 1rem;
+   
 }
 
 td{
@@ -241,6 +251,13 @@ td{
     font-size: 16px;
 }
 
+tr:last-child td:first-child{
+    border-bottom-left-radius: 0.8rem;
+}
+
+tr:last-child td:last-child{
+    border-bottom-right-radius: 0.8rem;
+}
 
 th:first-child{
     border-top-left-radius: 0.8rem;
@@ -268,6 +285,14 @@ td p{
 }
 
 /* ---Ideas details----------------------------------------------------------------------------------------------- */
+#idea-details h2 a {
+    color: white;
+}
+
+#idea-details h2 a:hover{
+    color: rgba(255, 157, 59, 1);
+}
+
 h2{
     text-align: center;
     margin-bottom: 0.5rem;
@@ -299,14 +324,18 @@ img{
     margin-bottom: 1rem;
 }
 
+.find-more {
+    display: flex;
+    justify-content: center;
+}
+
 .find-more a{
     /* margin-top: 28px;
     margin-bottom: 20px; */
     text-decoration: none;
     color: white;
-    display: inline-flex;
+    display: flex;
     width: max-content;
-    margin: auto;
     gap: 0.3rem;
     /* justify-content: center; */
     /* max-width: max-content; */
@@ -335,6 +364,17 @@ img{
 #login-again:hover{
     color: rgba(255, 157, 59, 1);
 }
+
+/* ---Footer---------------------------------------------------------------------------------------------------- */
+footer {
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(188, 188, 188);
+    font-size: 0.8rem;
+    color: slategrey;
+}
+
 
 
 

@@ -46,7 +46,7 @@ include 'partials/_top.php';
                     +
                 </a>
              </div>';
-        
+    
     ?>
 
     <?php include 'partials/bottom.php'; ?>

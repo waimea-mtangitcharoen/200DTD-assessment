@@ -112,29 +112,42 @@ I caught up with my client today and had a chat about the overall functionality 
 He also gave reasons that "there's nothing really important up there" and "it's taking quite a bit of the space of the screen, especially when it is small"
 
 Sticky
-![alt text](images/sticky.png)
+![Alt text](images/sticky.png)
 
 non-sticky
-![alt text](images/non-sticky.png)
+![Alt text](images/non-sticy.png)
 
 2. Edit button
 I asked him if he would like to be the only one who can edit details of ideas or students should also be able to do so as well. He said it is a "great idea" for the students to be able to edit them as well,
 
 Can only edit when logged-in
-![alt text](images/edit-only.png)
-![alt text](images/edit-not-login.png)
-
+![Alt text](images/edit-only.png)
 Anyone can edit without logging in
-![alt text](images/edit-all.png)
+![Alt text](images/edit-all.png)
 
 I asked about how he would like the navigation bars to change as the user hovers over and at the moment, I am using the underline. I gave him an option of using an orange color.
 >It looks more professional when it's underlined and i don't think the orange color really contrast with the background
 
 Here's how it looks like
-![alt text](images/nav-hover.png)
+
 
 Lastly, he mentioned that if I have time, he wants the website to somehow allows him to check/approve to the added ideas from students before they actually go into the system/website.
 
 ### 09/08/2024
-![alt text](images/link-hover.png)
+![Alt text](images/link-hover.png)
+
 My client wants to be able to click the link not just on the external link icon but at the "Find out more" as well.
+
+So i fixed it. The arange color represents how the link is being hover over at the moment.
+![Alt text](images/link-hover-fixed.png)
+
+### 15/08/2024
+![Alt text](image.png)
+I just found that the form for editing requires a change in image, which is not necessary. So I removed the "required" form my php to make sure that you can submit the edit form without having to choose a new image.
+
+I suuggested my client that it would be a great idea if you hover on the action buttons on the idea list and the color changes. He replied to me:
+>Correct, colour changes over each button would be great, though how would it work on mobile?
+![Alt text](image-2.png)
+![Alt text](image-1.png)
+
+I finished my edit form today. The edited data is also link to the added idea table so the changes will appear there as well.

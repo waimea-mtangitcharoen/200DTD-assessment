@@ -4,6 +4,7 @@ include 'partials/_top.php';
 
 consoleLog($_GET);
 
+
 $ideaID = $_GET['id'] ?? null;
 if ($ideaID == null) die('Missing idea ID!');
 
@@ -13,7 +14,7 @@ $db = connectToDB();
 
 // -------------------------------------------------
 // Get area name
-$query = 'SELECT title                       
+$query = 'SELECT id, title, area
             FROM ideas
             WHERE id = ?';
 
@@ -28,7 +29,12 @@ catch (PDOexception $e) {
     die('There was an error getting idea data from the database');
 }
 
-echo '<h2>' . $idea['title'] . '</h2>';
+echo '<div id="idea-details">';
+echo   '<h2>';
+echo     $idea['title'];
+echo     ' <a href="form-edit.php?id=' . $idea['id'] . '&area=' . $idea['area'] . '"><i data-feather="edit"></i></a>';
+echo   '</h2>';
+echo '</div>';
 
 $query = 'SELECT title,
                 description,

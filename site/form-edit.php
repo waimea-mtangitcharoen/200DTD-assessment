@@ -5,9 +5,12 @@ include 'partials/_top.php';
 consoleLog($_GET);
 
 $ideaID = $_GET['id'] ?? null;
-if ($ideaID == null) die('Missing area ID!');
+if ($ideaID == null) die('Missing idea ID!');
+$areaID = $_GET['area'] ?? null;
+if ($areaID == null) die('Missing area ID!');
 
 consoleLog($ideaID);
+consoleLog($areaID);
 
 $db = connectToDB();
 
@@ -32,7 +35,8 @@ consoleLog($idea);
 
 <form method="post" action='edit-idea.php' enctype="multipart/form-data">
 
-    <input type="hidden" name="idea" value="<?= $ideaID ?>">
+       <input type="hidden" name="idea" value="<?= $ideaID ?>">
+       <input type="hidden" name="area" value="<?= $areaID ?>">
     
     <label>Your name</label>
     <input name="sname" 
@@ -49,11 +53,9 @@ consoleLog($idea);
            required>
 
     <label>Description</label>
-    <input name="description" 
-           type="text" 
+    <textarea name="description" 
            placeholder="e.g. It is invisible"
-           value="<?= $idea['description'] ?>"
-           required>
+           required><?= $idea['description'] ?></textarea>
 
     <label>Link</label>
     <input name="link" 
@@ -77,8 +79,7 @@ consoleLog($idea);
 
 
     <label>Image</label>
-    <input type="file" name="image" accept="image/*"
-           required>
+    <input type="file" name="image" accept="image/*">
 
            
     <input type="submit" value="Edit">
