@@ -32,7 +32,9 @@ catch (PDOexception $e) {
 echo '<div id="idea-details">';
 echo   '<h2>';
 echo     $idea['title'];
-echo     ' <a href="form-edit.php?id=' . $idea['id'] . '&area=' . $idea['area'] . '"><i data-feather="edit"></i></a>';
+if($adminPortal == true){
+    echo     ' <a href="form-edit.php?id=' . $idea['id'] . '&area=' . $idea['area'] . '"><i data-feather="edit"></i></a>';
+}
 echo   '</h2>';
 echo '</div>';
 

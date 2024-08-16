@@ -151,3 +151,17 @@ I suuggested my client that it would be a great idea if you hover on the action 
 ![Alt text](image-1.png)
 
 I finished my edit form today. The edited data is also link to the added idea table so the changes will appear there as well.
+
+### 16/08/2024
+Mr. Copley mentioned to me yester day that it was not a good idea to let everyone be able to edit idea details. I then go on and talk to my client again about it, so he though about it again and agreed that admin should be the only person to be able to edit details.
+![Alt text](image-10.png)
+![Alt text](image-11.png)
+
+![Alt text](image-12.png)
+![Alt text](image-13.png)
+![Alt text](image-14.png)
+
+![Alt text](image-15.png)
+![Alt text](image-16.png)
+So he wants to say that he think the title of the website on the top should be slightly bigger than the main heading of the homapge because at the moment, they are pretty much the same size.
+![Alt text](image-17.png)

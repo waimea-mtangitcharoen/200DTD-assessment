@@ -26,6 +26,10 @@ body {
     margin-bottom: 0.5rem;
 }
 
+/* h1{
+    font-size: 56px;
+} */
+
 header {
     display: flex;
     justify-content: space-between;
@@ -39,6 +43,7 @@ header {
 header h1 a{
     text-decoration: none;
     color: black;
+    font-size: 56px;
 }
 
 /* ---Navigation bars----------------------------------------------------------------------------------------------- */
@@ -318,9 +323,10 @@ img{
 
 #description{
     display: flex;
+    justify-content: center;
     margin-top: 2rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
     margin-bottom: 1rem;
 }
 
