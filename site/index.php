@@ -35,7 +35,12 @@ include 'partials/_top.php';
             echo '<a href="idea-list.php?area='. $area['id'] .'">';
             echo $area['name'];            
             echo '</a>';
-
+            if($adminPortal == true){
+                echo   '<a 
+                            class="delete-button" 
+                            href="delete-areas.php?id=' .  $area['id'] . '"
+                            onclick="return confirm(`Are you sure?`)"><i data-feather="trash-2"></i></a>';
+                } 
             echo '</li>';
             
         }

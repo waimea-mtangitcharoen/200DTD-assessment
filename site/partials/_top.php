@@ -50,4 +50,3 @@ $page = basename($_SERVER['SCRIPT_NAME']);
 
     <main>
 
-<!-- https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.pumpkin.min.css -->

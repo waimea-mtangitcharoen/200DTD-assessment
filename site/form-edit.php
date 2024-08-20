@@ -9,8 +9,8 @@ if ($ideaID == null) die('Missing idea ID!');
 $areaID = $_GET['area'] ?? null;
 if ($areaID == null) die('Missing area ID!');
 
-consoleLog($ideaID);
-consoleLog($areaID);
+// consoleLog($ideaID);
+// consoleLog($areaID);
 
 $db = connectToDB();
 
@@ -27,7 +27,7 @@ catch (PDOexception $e) {
     die('There was an error getting data from the database');
 }
 //see what we got back
-consoleLog($idea);
+// consoleLog($idea);
 
 ?>
 
@@ -73,7 +73,7 @@ consoleLog($idea);
 
     }
     else{
-    echo   '<img src="load-image.php?id=' . $idea['id'] . '" class="details-image">';
+    echo   '<img src="load-image.php?id=' . $idea['id'] . '" class="details-image" alt="' . $idea['title'] . '">';
     }
     ?>
 

@@ -1,8 +1,6 @@
 <?php 
 require 'lib/utils.php';
 
-
-
 $name = $_POST['name'];
 
 $db = connectToDB();

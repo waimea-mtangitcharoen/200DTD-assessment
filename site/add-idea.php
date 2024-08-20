@@ -6,7 +6,7 @@ consoleLog($_POST, 'POST');
 consoleLog($_FILES, 'FILES');
 
 if(empty($_POST) && empty($_FILES)) die ('There was a problem uploading the file (probably too large)');
-//echo '<h2>Adding Idea Database....</h2>';
+
 [
     'data' => $image_data,
     'type' => $image_type

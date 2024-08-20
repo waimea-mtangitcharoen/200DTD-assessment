@@ -43,7 +43,7 @@ header {
 header h1 a{
     text-decoration: none;
     color: black;
-    font-size: 56px;
+    font-size: 60px;
 }
 
 /* ---Navigation bars----------------------------------------------------------------------------------------------- */
@@ -121,6 +121,10 @@ ul#area-list li:hover{
     border-radius: 3rem;
     text-decoration: none;
     color: black;
+}
+
+ul#area-list li .delete-button {
+    width: auto;
 }
 
 /* ---Idea list----------------------------------------------------------------------------------------------- */
@@ -280,12 +284,12 @@ td p{
     margin: 0.1rem;
 }
 
-#table-link{
+.table-link{
     text-decoration: none;
     color: black;
 }
 
-#table-link:hover{
+.table-link:hover{
     color: rgba(255, 157, 59, 1);
 }
 
@@ -311,12 +315,12 @@ img{
     object-fit: scale-down;
 }
 
-#idea-details a{
+#details a{
     text-decoration: none;
     color: black;
 }
 
-#idea-details p{
+#details p{
     display: flex;
     margin: 1rem;
 }

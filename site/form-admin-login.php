@@ -34,7 +34,7 @@ if ($adminLog['username'] == $username &&  $adminLog['password'] == $password)
 }
 else {
     
-    echo '<h2>Incorrect username or password. Please try again </h2></a>';
+    echo '<h2>Incorrect username or password. Please try again </h2>';
     echo '<a id="login-again" href="form-admin.php">Log in again';
     echo '</a>';
 

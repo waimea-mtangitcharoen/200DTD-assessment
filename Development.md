@@ -142,26 +142,80 @@ So i fixed it. The arange color represents how the link is being hover over at t
 ![Alt text](images/link-hover-fixed.png)
 
 ### 15/08/2024
-![Alt text](image.png)
+![Alt text](images/unnull-image.png)
 I just found that the form for editing requires a change in image, which is not necessary. So I removed the "required" form my php to make sure that you can submit the edit form without having to choose a new image.
 
 I suuggested my client that it would be a great idea if you hover on the action buttons on the idea list and the color changes. He replied to me:
 >Correct, colour changes over each button would be great, though how would it work on mobile?
-![Alt text](image-2.png)
-![Alt text](image-1.png)
+![Alt text](images/edit-hover-nocolor.png)
+![Alt text](images/edit-hover-color.png)
 
 I finished my edit form today. The edited data is also link to the added idea table so the changes will appear there as well.
+This was what everything looked like before I started editing it.
+
+Details page
+![alt text](images/unedited-details.png)
+Edit form
+![alt text](images/unedited-form-page.png)
+Added-ideas table
+![alt text](images/unedited-ideas-table.png)
+I changed "BellaBella" to "Bell" and uploaded a new image. These are what the details page, added-ideas table and form-edit look like after I edited them.
+
+Details page:
+![alt text](images/edited-details.png)
+Edit form
+![alt text](images/edited-form-page.png)
+Added-ideas table
+![alt text](images/edited-ideas-table.png)
 
 ### 16/08/2024
-Mr. Copley mentioned to me yester day that it was not a good idea to let everyone be able to edit idea details. I then go on and talk to my client again about it, so he though about it again and agreed that admin should be the only person to be able to edit details.
-![Alt text](image-10.png)
-![Alt text](image-11.png)
+Mr. Copley mentioned to me yesterday that it was not a good idea to let everyone be able to edit idea details. I then go on and talk to my client again about it, so he though about it again and agreed that admin should be the only person to be able to edit details.
+![Alt text](images/edit-all2.png)
+![Alt text](images/edit-only2.png)
 
-![Alt text](image-12.png)
-![Alt text](image-13.png)
-![Alt text](image-14.png)
+![Alt text](images/edit-all3.png)
+![Alt text](images/edit-only3.png)
+![Alt text](images/edit-only4.png)
 
-![Alt text](image-15.png)
-![Alt text](image-16.png)
+![Alt text](images/chat-comment1.png)
+![Alt text](images/chat-comment2.png)
 So he wants to say that he think the title of the website on the top should be slightly bigger than the main heading of the homapge because at the moment, they are pretty much the same size.
-![Alt text](image-17.png)
+![Alt text](images/heading-size.png)
+I made the website title slightly bigger than the heading as he wants.
+![alt text](images/fixed-heading-size.png)
+
+### 17/08/2024
+Doing the code validations for each file
+Homepage/Index:
+![alt text](image-6.png)
+Admin portal:
+![alt text](image-4.png)
+Add new area form:
+![alt text](image-3.png)
+Idea list:
+![alt text](image-5.png)
+Add new idea form:
+![alt text](image-7.png)
+Idea details:
+![alt text](image-8.png)
+Fixed:
+![Alt text](image-20.png)
+
+Added ideas table:
+![alt text](image-9.png)
+Fixed:
+![Alt text](image-21.png)
+
+Edit idea form:
+![Alt text](image-18.png)
+Fixed:
+![Alt text](image-19.png)
+
+Incorrect password or username page:
+![alt text](image-10.png)
+Fixed:
+![Alt text](image-22.png)
+
+Idea list after log-in:
+![Alt text](image-23.png)
+

@@ -8,7 +8,7 @@ consoleLog($_GET);
 $ideaID = $_GET['id'] ?? null;
 if ($ideaID == null) die('Missing idea ID!');
 
-consoleLog('Idea: ' . $ideaID);
+// consoleLog('Idea: ' . $ideaID);
 
 $db = connectToDB();
 
@@ -57,17 +57,17 @@ catch (PDOexception $e) {
     die('There was an error getting data from the database');
 }
 //see what we got back
-consoleLog($ideas);
+// consoleLog($ideas);
 
 //if (count($ideas) == 0) {
     //echo '<p>No ideas in this area!';
 //}
 //else {
-    echo '<id="idea-details">';
+    // echo '<id="details">';
 
     foreach ($ideas as $idea) {
     
-        echo '<img src="load-image.php?id=' . $idea['id'] . '">'; 
+        echo '<img src="load-image.php?id=' . $idea['id'] . '" alt="acessory">'; 
         // echo '<p id="description" '. $idea['description'] . '></p>';
         echo '<p id="description">' . $idea['description'] . '</p>';
         echo '<div class="find-more">';

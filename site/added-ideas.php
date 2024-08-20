@@ -45,7 +45,7 @@ foreach ($ideas as $idea) {
     echo    '<td>' . $idea['title'] . '</td>';
     echo    '<td>' . $idea['description'] . '</td>';
     echo    '<td>
-                <a id="table-link" href="' . $idea['link'] . '"><i data-feather="external-link"></i></a>
+                <a class="table-link" href="' . $idea['link'] . '"><i data-feather="external-link"></i></a>
             </td>';
     echo '</tr>';
 
