@@ -78,13 +78,12 @@ I should also consider the appropriateness and safety of links and photos I am u
 
 ## Final System Design
 
-### Database Structure
 
-Place a image here that shows the *final design* of your database: tables, fields and relationships.
+### Database Structure
+![Alt text](images/db-final-design.png)
 
 ### User Interface Design
-
-Place images here that show your *final design* of your UI: layout, colours, etc.
+![Alt text](images/ui-final-design.png)
 
 
 -------------------------------------------------
@@ -92,21 +91,20 @@ Place images here that show your *final design* of your UI: layout, colours, etc
 ## Completed System
 
 ### Database Structure
-
-Place a image here that shows the *actual database structure* that you implemented: tables, fields and relationships.
+![Alt text](images/db-completed-structure.png)
 
 ### User Interface Design
-
-Place screenshots and notes here that show your *actual system UI* in action.
-
+![Alt text](images/ui-completed-design.png)
+There are some changes in icons. They became more simple.
 
 -------------------------------------------------
 
 ## Review and Evaluation
 
 ### Meeting the Needs of the Users
+The need of my client is a website where students can browse through to get some ideas for their technology project. using mys sytem, students can see ideas that are grouped in areas and details of each ideas (with external link to the actual website as well). They can also add ideas and areas to the system for other user to see. Admin can edit, delete ideas and view added-ideas table.
 
-Replace this text with a brief evaluation of how well you met the needs of your users. Look at what you initially wrote about who they are, what specific needs they have, etc. and discuss how well the system meets those needs.
+<!-- Replace this text with a brief evaluation of how well you met the needs of your users. Look at what you initially wrote about who they are, what specific needs they have, etc. and discuss how well the system meets those needs. -->
 
 ### Meeting the System Requirements
 

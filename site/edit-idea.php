@@ -58,7 +58,7 @@ else {
 }
 
 
-header('location: idea-list.php?area=' . $areaID);
+header('location: details.php?id=' . $ideaID);
 //header('location: index.php');
 
  ?>

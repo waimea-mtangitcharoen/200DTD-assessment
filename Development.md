@@ -187,35 +187,51 @@ I made the website title slightly bigger than the heading as he wants.
 ### 17/08/2024
 Doing the code validations for each file
 Homepage/Index:
-![alt text](image-6.png)
+![alt text](images/validated-index.png)
 Admin portal:
-![alt text](image-4.png)
+![alt text](images/validated-admin-portal.png)
 Add new area form:
-![alt text](image-3.png)
+![alt text](images/validated-area-form.png)
 Idea list:
-![alt text](image-5.png)
+![alt text](images/validated-idea-list.png)
 Add new idea form:
-![alt text](image-7.png)
+![alt text](images/validated-idea-form.png)
 Idea details:
-![alt text](image-8.png)
+![alt text](images/validated-details.png)
 Fixed:
-![Alt text](image-20.png)
+![Alt text](images/fixed-details.png)
 
 Added ideas table:
-![alt text](image-9.png)
+![alt text](images/validated-table.png)
 Fixed:
-![Alt text](image-21.png)
+![Alt text](images/fixed-table.png)
 
 Edit idea form:
-![Alt text](image-18.png)
+![Alt text](images/validated-edit-form.png)
 Fixed:
-![Alt text](image-19.png)
+![Alt text](images/fixed-edit-form.png)
 
 Incorrect password or username page:
-![alt text](image-10.png)
+![alt text](images/validated-wrong-login.png)
 Fixed:
-![Alt text](image-22.png)
+![Alt text](images/fixed-wrong-login.png)
+
+Homepage/index after log-in:
 
 Idea list after log-in:
-![Alt text](image-23.png)
+![Alt text](images/validated-list-login.png)
+Idea details after log-in:
+![alt text](images/validated-details-login.png)
 
+### 21/08/2024
+
+Video of me demostrating how to use my website:
+- How to view details and ideas within areas
+- How to add new area
+- How to add new idea
+- How to edit details
+- How to delete areas/ideas
+- How to log-in and log-out
+- How to view added tables
+
+[Video Link](https://mywaimeaschool-my.sharepoint.com/:v:/g/personal/mtangitcharoen_waimea_school_nz/EVBMevLHw-dPuNYbdkYqnVcBlDZgLtVu5ispEkwWzn_UPA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=VyGOGP)
