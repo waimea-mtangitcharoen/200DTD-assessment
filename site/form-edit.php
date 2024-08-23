@@ -80,7 +80,7 @@ catch (PDOexception $e) {
 
     <label>Image</label>
     <input type="file" name="image" accept="image/*">
-
+    <p id="warning"> Please make sure that the image that your are uploading is copyright </p>
            
     <input type="submit" value="Edit">
 

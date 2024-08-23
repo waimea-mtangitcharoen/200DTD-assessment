@@ -102,23 +102,31 @@ There are some changes in icons. They became more simple.
 ## Review and Evaluation
 
 ### Meeting the Needs of the Users
-The need of my client is a website where students can browse through to get some ideas for their technology project. using mys sytem, students can see ideas that are grouped in areas and details of each ideas (with external link to the actual website as well). They can also add ideas and areas to the system for other user to see. Admin can edit, delete ideas and view added-ideas table.
+The need of my client is a website where students can browse through to get some ideas for their technology project. Using mys sytem, students can see ideas that are grouped in areas and details of each ideas (with external link to the actual website as well). They can also add ideas and areas to the system for other students to see. Admin can edit, delete ideas and view added-ideas table. So it met the client's main need and solve the problem.
 
 <!-- Replace this text with a brief evaluation of how well you met the needs of your users. Look at what you initially wrote about who they are, what specific needs they have, etc. and discuss how well the system meets those needs. -->
 
 ### Meeting the System Requirements
+My end user's requirement is for the system to be able to store ideas for students. So i created 2 tables in the database to store those ideas: areas table and ideas table. This also applies in terms of the simplicity of the website because ideas are grouped in area for the user, so it is easier and more conviient to browse through. My UI has got a lot of grey and orange colors on it as he specifically required, to give technology's room vibe. The components on the interface are quite big, haven't got many words on it and a variety of icons are used which are straight forward for the user to interpret. Therefore, the system is simple and suitable for any users in any levels of IT skills to use.
+![Alt text](images/ui-required.png)
+Both admin and students can also easily add areas/ideas to the website because an add button's position is fixed at the bottom of hompage and idea list page, so even if the user scrolls down, the button is fixed on the screen and can be clicked anytime.
+![Alt text](image-1.png)
+![Alt text](image-2.png)
+<!-- Replace this text with a brief evaluation of how well you met the requirements that you defined at the start of the project, etc. Look back at the list of features / functionality you initially set and discuss how well your system has implemented each one. -->
 
-Replace this text with a brief evaluation of how well you met the requirements that you defined at the start of the project, etc. Look back at the list of features / functionality you initially set and discuss how well your system has implemented each one.
+### Review of Functionaliity
 
-### Review of IMPLICATION NAME HERE
+Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+
+### Review of Usability
 
 Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
 
-### Review of IMPLICATION NAME HERE
+### Review of Aesthetics
 
 Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
 
-### Review of IMPLICATION NAME HERE
+### Review of End-users
 
-Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+### Review of Intellectual property
 

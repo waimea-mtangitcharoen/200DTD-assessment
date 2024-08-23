@@ -235,3 +235,6 @@ Video of me demostrating how to use my website:
 - How to view added tables
 
 [Video Link](https://mywaimeaschool-my.sharepoint.com/:v:/g/personal/mtangitcharoen_waimea_school_nz/EVBMevLHw-dPuNYbdkYqnVcBlDZgLtVu5ispEkwWzn_UPA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=VyGOGP)
+
+### 23/08/2024
+I need to add a warning messsage on an edit form when the user is trying to upload an image to cover the Intellectual property implication (Mr. Copley's suggestion).
