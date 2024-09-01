@@ -115,7 +115,7 @@ Sticky
 ![Alt text](images/sticky.png)
 
 non-sticky
-![Alt text](images/non-sticy.png)
+![Alt text](images/non-stick    y.png)
 
 2. Edit button
 I asked him if he would like to be the only one who can edit details of ideas or students should also be able to do so as well. He said it is a "great idea" for the students to be able to edit them as well,
@@ -238,3 +238,4 @@ Video of me demostrating how to use my website:
 
 ### 23/08/2024
 I need to add a warning messsage on an edit form when the user is trying to upload an image to cover the Intellectual property implication (Mr. Copley's suggestion).
+![alt text](images/copyright-message.png)

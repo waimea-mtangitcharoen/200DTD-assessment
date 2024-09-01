@@ -32,12 +32,14 @@ catch (PDOexception $e) {
 echo '<div id="idea-details">';
 echo   '<h2>';
 echo     $idea['title'];
+//if login can edit
 if($adminPortal == true){
     echo     ' <a href="form-edit.php?id=' . $idea['id'] . '&area=' . $idea['area'] . '"><i data-feather="edit"></i></a>';
 }
 echo   '</h2>';
 echo '</div>';
 
+//Get idea id
 $query = 'SELECT title,
                 description,
                 link,
@@ -63,8 +65,8 @@ catch (PDOexception $e) {
     //echo '<p>No ideas in this area!';
 //}
 //else {
-    // echo '<id="details">';
-
+    
+    //all idea details
     foreach ($ideas as $idea) {
     
         echo '<img src="load-image.php?id=' . $idea['id'] . '" alt="acessory">'; 

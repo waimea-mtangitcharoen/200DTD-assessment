@@ -23,8 +23,7 @@ $areaID = $_POST['area'];
 
 $db = connectToDB();
 
-//setup a query to get all company info 
-
+//setup a query to add new idea to database
 $query = 'INSERT INTO ideas (area, title, description, link, student_name, image_data, image_type)
           VALUES (?,?,?,?,?,?,?)';
 //Attempt to run the query
@@ -39,6 +38,6 @@ catch (PDOexception $e) {
 }
 
 header('location: idea-list.php?area=' . $areaID);
-//header('location: index.php');
+
 
  ?>

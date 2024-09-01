@@ -110,23 +110,45 @@ The need of my client is a website where students can browse through to get some
 My end user's requirement is for the system to be able to store ideas for students. So i created 2 tables in the database to store those ideas: areas table and ideas table. This also applies in terms of the simplicity of the website because ideas are grouped in area for the user, so it is easier and more conviient to browse through. My UI has got a lot of grey and orange colors on it as he specifically required, to give technology's room vibe. The components on the interface are quite big, haven't got many words on it and a variety of icons are used which are straight forward for the user to interpret. Therefore, the system is simple and suitable for any users in any levels of IT skills to use.
 ![Alt text](images/ui-required.png)
 Both admin and students can also easily add areas/ideas to the website because an add button's position is fixed at the bottom of hompage and idea list page, so even if the user scrolls down, the button is fixed on the screen and can be clicked anytime.
-![Alt text](image-1.png)
-![Alt text](image-2.png)
+![Alt text](images/requirement1.png)
+![Alt text](images/requirement2.png)
 <!-- Replace this text with a brief evaluation of how well you met the requirements that you defined at the start of the project, etc. Look back at the list of features / functionality you initially set and discuss how well your system has implemented each one. -->
 
 ### Review of Functionaliity
+The navigation bars are underlined when being hover over.
+The color changes when the user hovers over buttons eg. external links, area/idea list, edit button, and delete button. 
+The pointer changes to curser over the add, submit or log-in button.
+[Video link](https://mywaimeaschool-my.sharepoint.com/:v:/g/personal/mtangitcharoen_waimea_school_nz/EVFD86CpNYhBkh5rKL9ktfgBpOCO3TgJ8FnACtrBisumGA?e=u5BQ0L)
 
-Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+This informs the user where each button will take them to and shows that the system is working due to changes.
+
 
 ### Review of Usability
 
-Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+Most components are the same and have been used consistently over the website. Some obvious examples are top, bottom and background color.
+![alt text](images/usability1.png)
+![alt text](images/usability2.png)
+As for Recognition rather than recall, it was aim for when the user is adding ideas and they can select the area from the list popped-up.
+![alt text](images/recall-1.png)
+![alt text](images/recall-2.png)
+Because user can only add ideas when they are in an area anyway, instead of selecting the area, it is easier for the form to add the new idea to the area the user click from.
 
 ### Review of Aesthetics
 
-Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+Technology related: used grey and orange as required.
+The interface is minimal and not too detailing. The components are big and the text is easy to read.
+![alt text](images/aesthetic1.png)
+Icons related to real life are used (match between the system and real world).
+![alt text](images/icons.png)
+a person for logging in and home for homepage (the place you always go)
 
+![alt text](images/bin.png)
+
+A bin for delete (somewhere you throw atuff you don't want away in real life)
 ### Review of End-users
-
+I involved my client during the process of creating the website. I have consistently asked for his feedback and made some changes to match his need. I also ask my friend, Jess, who is also doing dtd, as a student's point of view towards the website, especially with the design and if the functionality of the website is making sense.
 ### Review of Intellectual property
+![alt text](images/copyright-message.png)
+ A short message on both add idea and edit form warns the user about before uploading an image to the system as the intellectual property implication.
+
 

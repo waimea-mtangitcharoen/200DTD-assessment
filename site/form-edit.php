@@ -13,7 +13,7 @@ if ($areaID == null) die('Missing area ID!');
 // consoleLog($areaID);
 
 $db = connectToDB();
-
+// Get idea id
 $query = 'SELECT * FROM ideas WHERE id=?';
 
 //Attempt to run the query
@@ -37,30 +37,30 @@ catch (PDOexception $e) {
 
        <input type="hidden" name="idea" value="<?= $ideaID ?>">
        <input type="hidden" name="area" value="<?= $areaID ?>">
-    
+    <!-- edit idea form -->
     <label>Your name</label>
     <input name="sname" 
            type="text" 
-           placeholder="e.g. Mimi"
+           placeholder="e.g. Mimi Tangitcharoen"
            value="<?= $idea['student_name'] ?>"
            required>
 
     <label>Project title</label>
     <input name="title" 
            type="text" 
-           placeholder="e.g. Invisible necklace" 
+           placeholder="e.g. DIY necklace" 
            value="<?= $idea['title']?>"
            required>
 
     <label>Description</label>
     <textarea name="description" 
-           placeholder="e.g. It is invisible"
+           placeholder="e.g. This necklace is..."
            required><?= $idea['description'] ?></textarea>
 
     <label>Link</label>
     <input name="link" 
            type="url" 
-           placeholder="e.g. www.necklace.invisible.com"
+           placeholder="e.g. http://www.necklace.com/index.html"
            value= "<?= $idea['link']?>" 
            required>
            
@@ -80,7 +80,7 @@ catch (PDOexception $e) {
 
     <label>Image</label>
     <input type="file" name="image" accept="image/*">
-    <p id="warning"> Please make sure that the image that your are uploading is copyright </p>
+    <p id="copyright"> *Please make sure that the image is copyright before uploading </p>
            
     <input type="submit" value="Edit">
 

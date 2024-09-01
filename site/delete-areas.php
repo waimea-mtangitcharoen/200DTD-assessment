@@ -8,7 +8,7 @@ $areaID = $_GET['id'];
 // $ideaID = $_GET['id'] ?? null;
 
 consoleLog($_GET);
-
+//for deleting area
 $query = 'DELETE FROM areas
           WHERE id = ?';
 
@@ -20,7 +20,7 @@ try{
 }
 catch (PDOexception $e) {
     consoleLog($e->getMessage(), 'DB List Fetch', ERROR);
-    die('There was an error deleting ideas from the database');
+    die('There was an error deleting areas from the database');
 }
 //use the header = cannot use the console log
 header('location:index.php');

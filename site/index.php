@@ -12,7 +12,7 @@ include 'partials/_top.php';
         $db = connectToDB();
 
 
-        //setup a query to get all company info
+        //setup a query to get all area info
         $query = 'SELECT * FROM areas';
 
         //Attempt to run the query
@@ -35,6 +35,7 @@ include 'partials/_top.php';
             echo '<a href="idea-list.php?area='. $area['id'] .'">';
             echo $area['name'];            
             echo '</a>';
+            // only admin can delete
             if($adminPortal == true){
                 echo   '<a 
                             class="delete-button" 

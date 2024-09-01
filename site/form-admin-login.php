@@ -7,7 +7,7 @@ $password = $_POST['password'];
 
 $db = connectToDB();
 
-//setup a query to get all company info 
+//setup a query to get username and password
 
 $query = 'SELECT * FROM admin';
 //Attempt to run the query
@@ -22,10 +22,10 @@ catch (PDOexception $e) {
 }
 
 
-//header('location: index.php');
+
 consoleLog($adminLog);
 
-// session_start();
+
 
 if ($adminLog['username'] == $username &&  $adminLog['password'] == $password)
 {

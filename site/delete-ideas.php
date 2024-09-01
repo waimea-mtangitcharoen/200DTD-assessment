@@ -8,7 +8,7 @@ $areaID = $_GET['area'];
 $ideaID = $_GET['id'] ?? null;
 
 consoleLog($_GET);
-
+//set up query for deleting ideas
 $query = 'DELETE FROM ideas
           WHERE id = ?';
 

@@ -5,15 +5,13 @@ include 'partials/_top.php';
 $db = connectToDB();
 
 
-//setup a query to get all company info
+//setup a query to get all ideas information
 $query = 'SELECT ideas.student_name,
                  ideas.title,    
                  ideas.description,    
                  ideas.link
 
 FROM ideas
-/*JOIN companies ON employees.company = companies.code*/
-
 ORDER BY ideas.student_name ASC';
 
 //Attempt to run the query
@@ -29,7 +27,7 @@ catch (PDOexception $e) {
 //see what we got back
 consoleLog($ideas);
 
-
+//create added-ideas table
 echo '<table>
         <tr>
            <th>Student Name</th>

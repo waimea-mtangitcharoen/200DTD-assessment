@@ -208,7 +208,7 @@ input, textarea {
     justify-content: space-between;
     padding: 1rem 1rem;
     border-style: none;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
     background-color: white;
     color: black;
 }
@@ -233,6 +233,10 @@ input[type="submit" i]:hover{
 /* select:not(:last-child){ */
     /* margin-bottom: 5rem; */
 /* } */
+#copyright{
+    color: rgba(255, 157, 59, 1);
+    font-size: 20px;
+}
 
 /* ---Added ideas table----------------------------------------------------------------------------------------------- */
 table{

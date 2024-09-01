@@ -9,9 +9,6 @@ $page = basename($_SERVER['SCRIPT_NAME']);
 
 // consoleLog($_SESSION);
 
-
-
-
 ?>
 
 <!DOCTYPE html>
